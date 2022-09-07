@@ -1,0 +1,63 @@
+:root{
+  --light-gray: hsl(204, 43%, 93%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+  font-family: "Karla", sans-serif;
+  background: var(--light-gray);
+  height: 130vh;
+  padding: 5rem 2rem;
+}
+.left{
+  display: flex;
+  
+}
+.first-second-div{
+    
+  }
+  .second-second-div{
+    
+  }
+  .main{
+    height: 130vh;
+  }
+  .front{
+    margin-left: -180px;
+    margin-right: 50px;
+    margin-top: 40px;
+    display: flex; 
+    padding: 4px;
+  }
+  .container{
+    background-color: #fff;
+    height: 130vh;
+    
+  }
+  .form-field{
+    display: flex;
+  }
+  .field{
+    margin-right: 8px;
+    margin-top: 15px;
+  }
+  .third-div{
+    margin-top: 45vh;
+    padding: 25px;
+  }
+  .owner{
+    font-size: 25px;
+  }
+  .btn{
+    border-radius: 5px;
+    background-color: #191464;
+    color: #fff;
+    padding: 10px 160px;
+  }
+.button{
+  margin-top: 20px;
+} 
